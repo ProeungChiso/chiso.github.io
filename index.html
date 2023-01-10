@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html_at_ant_w5_day19</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <div class="menuholder">
+        <div class="menubox">
+            <div class="logoholder animate__animated animate__bounceInDown">
+                <h1>DC<span style="color: red;">.</span></h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li style="padding-left: 20px;"><a href="#">Movies</a></li>
+                    <li><a href="#">Membership</a></li>
+                    <li><a href="#">New and Event</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/slide7.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/silde2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/silde3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slide6.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slide5.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <div class="newreleasebox">
+        <div class="textbox">
+            <h1>NEW MOVIES RELEASE</h1>
+            <hr style="border: 1px solid white;">
+        </div>
+        <div class="movieboxrelease">
+            <div class="moviebox1" data-aos="fade-right">
+                <h1>OLD MOVIES</h1>
+            </div>
+            <div class="moviebox2" data-aos="fade-up">
+                <h1>NEW MOVIES</h1>
+            </div>
+            <div class="moviebox3" data-aos="fade-left">
+                <h1>COMING SOON</h1>
+            </div>
+        </div>
+    </div>
+    <div class="pupularmoviebox">
+        <div class="textbox1">
+            <h1>Popular Movies</h1>
+        </div>
+        <div class="popularbox">
+            <div class="popubox1" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic1">
+            </div>
+            <div class="popubox2" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic2">
+            </div>
+            <div class="popubox3" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic3">
+            </div>
+            <div class="popubox4" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic4">
+            </div>
+            <div class="popubox5" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic5">
+            </div>
+            <div class="popubox6" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic6">
+            </div>
+        </div>
+    </div>
+    <div class="latedmoviebox">
+        <div class="textbox2">
+            <h1>Lated Movies</h1>
+        </div>
+        <div class="latedbox">
+            <div class="latedbox1" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic1">
+            </div>
+            <div class="latedbox2" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic2">
+            </div>
+            <div class="latedbox3" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic3">
+            </div>
+            <div class="latedbox4" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic4">
+            </div>
+            <div class="latedbox5" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic5">
+            </div>
+            <div class="latedbox6" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic6">
+            </div>
+        </div>
+    </div>
+    <div class="bannermoviebox" data-aos="flip-left">
+        <img src="images/bannerpic6.jpg" alt="bannerpic">
+    </div>
+    <div class="comingsoonmoviebox">
+        <div class="textbox3">
+            <h1>Coming Soon Movies</h1>
+        </div>
+        <div class="comingbox">
+            <div class="comingbox1" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic1">
+            </div>
+            <div class="comingbox2" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic1">
+            </div>
+            <div class="comingbox3" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic1">
+            </div>
+            <div class="comingbox4" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic1">
+            </div>
+            <div class="comingbox5" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic1">
+            </div>
+            <div class="comingbox6" data-aos="zoom-in">
+                <img src="images/movierelease1.jpg" alt="pic1">
+            </div>
+        </div>
+    </div>
+    <div class="footerbox">
+        <p>ANT Training Center 2023</p>
+    </div>
+</body>
+<script>
+    AOS.init();
+</script>
+</html>

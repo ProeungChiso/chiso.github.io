@@ -1,0 +1,689 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+body{
+    background-color: #040f13;
+}
+.menuholder {
+    width: 100%;
+    height: 70px;
+    background-color: #071e26;
+}
+.menubox {
+    width: 1140px;
+    height: 70px;
+    /* background-color: blueviolet; */
+    margin: auto;
+}
+.logoholder {
+    width: 70px;
+    height: 70px;
+    /* background-color: bisque; */
+    float: left;
+}
+.logoholder h1 {
+    display: block;
+    padding: 15px 10px;
+    color: gold;
+}
+.menu {
+    width: 700px;
+    height: 70px;
+    /* background-color: salmon; */
+}
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    float: left;
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 25px 25px;
+    color: white;
+    text-transform: uppercase;
+}
+.menu ul li:hover a {
+    color: gold;
+    transition: 0.5s;
+}
+.swiper {
+    width: 1140px;
+    height: 620px;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.newreleasebox{
+    width: 1140px;
+    height: 500px;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.textbox{
+    width: 1140px;
+    height: 120px;
+    /* background-color: bisque; */
+}
+.textbox h1{
+    display: block;
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+.movieboxrelease{
+    width: 1140px;
+    height: 380px;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.moviebox1{
+    width: 350px;
+    height: 300px;
+    /* background-color: beige; */
+    background-image: url(../images/movierelease2.png);
+    float: left;
+    border-radius: 20px;
+    transition: 0.5s;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.moviebox1 h1{
+    color: white;
+    background-color: #071e26;
+    font-size: 20px;
+    text-align: center;
+}
+.moviebox1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.moviebox2{
+    width: 350px;
+    height: 300px;
+    background-image: url(../images/movierelease2.png);
+    /* background-color: beige; */
+    float: left;
+    margin-left: 45px;
+    border-radius: 20px;
+    transition: 0.5s;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.moviebox2 h1{
+    color: white;
+    background-color: #071e26;
+    font-size: 20px;
+    text-align: center;
+}
+.moviebox2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.moviebox3{
+    width: 350px;
+    height: 300px;
+    background-image: url(../images/movierelease2.png);
+    /* background-color: beige; */
+    float: left;
+    margin-left: 45px;
+    border-radius: 20px;
+    transition: 0.5s;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.moviebox3 h1{
+    color: white;
+    background-color: #071e26;
+    font-size: 20px;
+    text-align: center;
+}
+.moviebox3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.pupularmoviebox{
+    width: 1140px;
+    height: 380px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.textbox1{
+    width: 1140px;
+    height: 80px;
+    /* background-color: antiquewhite; */
+}
+.textbox1 h1{
+    text-transform: uppercase;
+    color:white;
+}
+.popularbox{
+    width: 1140px;
+    height: 300px;
+    /* background-color: blanchedalmond; */
+}
+.popubox1{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.popubox1:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.popubox1 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.popubox1:hover img{
+    transform: scale(1.1);
+}
+.popubox2{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.popubox2:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.popubox2 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.popubox2:hover img{
+    transform: scale(1.1);
+}
+.popubox3{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.popubox3:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.popubox3 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.popubox3:hover img{
+    transform: scale(1.1);
+}
+.popubox4{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.popubox4:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.popubox4 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.popubox4:hover img{
+    transform: scale(1.1);
+}
+.popubox5{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.popubox5:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.popubox5 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.popubox5:hover img{
+    transform: scale(1.1);
+}
+.popubox6{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.popubox6:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.popubox6 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.popubox6:hover img{
+    transform: scale(1.1);
+}
+.latedmoviebox{
+    width: 1140px;
+    height: 380px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.textbox2{
+    width: 1140px;
+    height: 80px;
+    /* background-color: antiquewhite; */
+}
+.textbox2 h1{
+    text-transform: uppercase;
+    color:white;
+}
+.latedbox{
+    width: 1140px;
+    height: 300px;
+    /* background-color: blanchedalmond; */
+}
+.latedbox1{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.latedbox1:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.latedbox1 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.latedbox1:hover img{
+    transform: scale(1.1);
+}
+.latedbox2{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.latedbox2:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.latedbox2 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.latedbox2:hover img{
+    transform: scale(1.1);
+}
+.latedbox3{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.latedbox3:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.latedbox3 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.latedbox3:hover img{
+    transform: scale(1.1);
+}
+.latedbox4{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.latedbox4:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.latedbox4 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.latedbox4:hover img{
+    transform: scale(1.1);
+}
+.latedbox5{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.latedbox5:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.latedbox5 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.latedbox5:hover img{
+    transform: scale(1.1);
+}
+.latedbox6{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.latedbox6:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.latedbox6 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.latedbox6:hover img{
+    transform: scale(1.1);
+}
+.bannermoviebox{
+    width: 1140px;
+    height: 380px;
+    /* background-color: aqua; */
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.bannermoviebox img{
+    width: 1140px;
+    height: 380px;
+    background-size: cover;
+    object-fit: cover;
+}
+.comingsoonmoviebox{
+    width: 1140px;
+    height: 800px;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.textbox3{
+    width: 1140px;
+    height: 150px;
+    /* background-color: antiquewhite; */
+}
+.textbox3 h1{
+    display: block;
+    text-transform: uppercase;
+    color:white;
+    padding-top: 65px;
+}
+.comingbox{
+    width: 1140px;
+    height: 300px;
+    /* background-color: blanchedalmond; */
+}
+.comingbox1{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.comingbox1:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.comingbox1 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.comingbox1:hover img{
+    transform: scale(1.1);
+}
+.comingbox2{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.comingbox2:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.comingbox2 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.comingbox2:hover img{
+    transform: scale(1.1);
+}
+.comingbox3{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.comingbox3:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.comingbox3 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.comingbox3:hover img{
+    transform: scale(1.1);
+}
+.comingbox4{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.comingbox4:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.comingbox4 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.comingbox4:hover img{
+    transform: scale(1.1);
+}
+.comingbox5{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.comingbox5:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.comingbox5 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.comingbox5:hover img{
+    transform: scale(1.1);
+}
+.comingbox6{
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.comingbox6:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.comingbox6 img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover; 
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+    border-radius: 10px;
+}
+.comingbox6:hover img{
+    transform: scale(1.1);
+}
+.footerbox{
+    width: 100%;
+    height: 50px;
+    background-color: #071e26;
+}
+.footerbox p{
+    display: block;
+    color:white;
+    text-align: center;
+    font-family: serif;
+}
+
